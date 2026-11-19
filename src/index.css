@@ -1,0 +1,10 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-[#F8FAFC] text-ink font-sans antialiased}
+@layer components{
+.card{@apply bg-white border border-line rounded-xl shadow-sm p-5}
+.btn{@apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium border border-line bg-white text-ink hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand disabled:opacity-50}
+.btn-p{@apply bg-brand text-white border-brand hover:bg-indigo-600}
+.inp{@apply w-full rounded-lg border border-line bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand/30 focus:border-brand}
+.lbl{@apply block text-sm font-medium mb-1}
+.err{@apply text-xs text-bad mt-1}
+.chip{@apply inline-flex items-center rounded-full bg-soft text-brand px-2.5 py-0.5 text-xs font-medium}}
